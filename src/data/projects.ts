@@ -11,6 +11,7 @@ export interface Project {
   featured: boolean;
   featuredOrder: number;
   cover: string;
+  focalPosition: string;
 }
 
 export const projects: Project[] = [
@@ -25,6 +26,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 1,
     cover: "/projects/project-01/cover.jpg",
+    focalPosition: "center 68%",
   },
   {
     id: "project-02",
@@ -37,6 +39,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 2,
     cover: "/projects/project-02/cover.jpg",
+    focalPosition: "center 56%",
   },
   {
     id: "project-03",
@@ -49,6 +52,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 3,
     cover: "/projects/project-03/cover.jpg",
+    focalPosition: "center 61%",
   },
   {
     id: "project-04",
@@ -61,6 +65,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 4,
     cover: "/projects/project-04/cover.jpg",
+    focalPosition: "center 57%",
   },
   {
     id: "project-05",
@@ -73,6 +78,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 5,
     cover: "/projects/project-05/cover.jpg",
+    focalPosition: "center 60%",
   },
   {
     id: "project-06",
@@ -85,6 +91,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 6,
     cover: "/projects/project-06/cover.jpg",
+    focalPosition: "center 46%",
   },
   {
     id: "project-07",
@@ -97,6 +104,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 7,
     cover: "/projects/project-07/cover.jpg",
+    focalPosition: "center 60%",
   },
   {
     id: "project-08",
@@ -109,6 +117,7 @@ export const projects: Project[] = [
     featured: true,
     featuredOrder: 8,
     cover: "/projects/project-08/cover.jpg",
+    focalPosition: "center 64%",
   },
 ];
 

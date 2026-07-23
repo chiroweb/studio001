@@ -140,8 +140,9 @@ function OrbitCard({
           src={project.cover}
           alt={`${project.title} 대표 스틸`}
           fill
-          sizes="(max-width: 767px) 62vw, (max-width: 1023px) 38vw, 24vw"
+          sizes="(max-width: 767px) 78vw, (max-width: 1023px) 58vw, 34vw"
           priority={first}
+          style={{ objectPosition: project.focalPosition }}
           onLoad={first ? onFirstLoad : undefined}
         />
       </span>
@@ -245,6 +246,7 @@ function ProjectOverlay({
           fill
           sizes="(max-width: 767px) 100vw, 54vw"
           priority
+          style={{ objectPosition: project.focalPosition }}
         />
       </div>
       <div className="overlayCopy">
@@ -442,10 +444,10 @@ export function BlissHero() {
     const mobile = width < 768;
     const tablet = width >= 768 && width < 1024;
     const radiusX = mobile
-      ? width * 0.62
+      ? width * 0.7
       : tablet
-        ? width * 0.46
-        : clamp(width * 0.4, 420, 760);
+        ? width * 0.5
+        : clamp(width * 0.42, 440, 820);
     const radiusY = mobile
       ? height * 0.05
       : tablet

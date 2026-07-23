@@ -266,8 +266,8 @@ a:focus-visible {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: clamp(260px, 22vw, 410px);
-  aspect-ratio: 2 / 3;
+  width: clamp(360px, 30vw, 560px);
+  aspect-ratio: 16 / 9;
   padding: 0;
   overflow: hidden;
   background: #080706;
@@ -762,7 +762,7 @@ a:focus-visible {
   }
 
   .posterCard {
-    width: clamp(240px, 38vw, 340px);
+    width: clamp(360px, 58vw, 600px);
   }
 
   .projectMeta {
@@ -800,7 +800,7 @@ a:focus-visible {
   }
 
   .posterCard {
-    width: min(62vw, 320px);
+    width: min(78vw, 380px);
   }
 
   .projectMeta {
